@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/npm/webcamjs@1.0.26/webcam.min.js"
+    ></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Hand Gesture Web App</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="div1">
+        <h1>Hand Gesture Web App</h1>
+        <h2>&#x270c; &#x1f44d; &#9995; &#65039;</h2>
+      </div>
+      <br />
+      <div class="div2">
+        <div id="webcamContainer"></div>
+        <button id="button1" class="btn btn-outline-primary mt-3">
+          Capture Image
+        </button>
+      </div>
+      <div class="div2">
+        <h3 class="badge bg-primary">Prediction</h3>
+      </div>
+      <div class="div3">
+        <div id="outputDiv"></div>
+        <button id="button2" class="btn btn-outline-primary mt-3">
+          Identify Image
+        </button>
+      </div>
+    </div>
+  </body>
+</html>

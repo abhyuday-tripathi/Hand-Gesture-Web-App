@@ -1,0 +1,44 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+}
+
+#webcamContainer {
+  height: 350px;
+  width: 350px;
+  border: 1px dashed black;
+}
+
+.div2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-right: 10%;
+}
+
+#outputDiv {
+  height: 350px;
+  width: 350px;
+  border: 1px dashed black;
+}
+
+.div3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20%;
+  margin-right: 10%;
+}
